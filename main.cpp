@@ -5,11 +5,11 @@
 
 int main() {
   // Using fmt library
-  fmt::print("Hello, {}!\n", "foo");
+  fmt::print("Hello, {}!\n", "externpro");
 
   // Using nlohmann_json library
   nlohmann::json data = {
-    {"name", "foo"},
+    {"name", "externpro"},
     {"type", "package manager"}
   };
   fmt::print("{}\n", data.dump());
